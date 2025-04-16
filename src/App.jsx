@@ -81,7 +81,7 @@ const copyPasswordToClipboard = useCallback(()=>{
  
   return(
     <>
-    <div className='w-full text-orange-500  p-6 max-w-md mx-auto shadow-md rounded-lg px-4 my-8 bg-gray-700 p-'>Password Generator
+    <div className='w-full text-orange-500 font-bold p-6 max-w-md mx-auto shadow-md rounded-lg px-4 my-8 bg-gray-700 p-'>Password Generator
 
       <div className='flex shadow p-4 rounded-lg overflow-hidden mb-4'>
 
@@ -101,7 +101,7 @@ const copyPasswordToClipboard = useCallback(()=>{
 
       </div>
 
-      <div className="flex text-sm gap-x-2">
+      <div className="flex flex-wrap text-sm  gap-x-2">
       <div className="flex items-center gap-x-1">
         <input type='range'
         min={7}
@@ -137,6 +137,10 @@ const copyPasswordToClipboard = useCallback(()=>{
 
 
         </div>
+    </div>
+
+    <div className='flex mt-7 font-thin text-xs flex-row-reverse'>
+      Designed & developed by &nbsp; ~ Partha Mitra
     </div>
     </div>
     
