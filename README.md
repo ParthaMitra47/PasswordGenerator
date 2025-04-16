@@ -1,6 +1,7 @@
 # React + Vite
 
 - Try From Here : https://parthamitra47.github.io/PasswordGenerator/
+- Made Using : React + Vite + Tailwind
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
